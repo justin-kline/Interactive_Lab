@@ -6,6 +6,6 @@ var correct1 = function()
 
 var incorrect1 = function()
 {
-  document.getElementById("feedback1").style.color = "red";
   document.getElementById("feedback1").innerHTML = "Incorrect...";
+  document.getElementById("feedback1").style.color = "red";
 }
