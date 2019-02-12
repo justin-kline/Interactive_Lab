@@ -1,11 +1,11 @@
-var correct = function()
+var correct1 = function()
 {
   var p = document.createElement("p");
   p.innerText="Correct!";
   header.after(p);
 }
 
-var incorrect = function()
+var incorrect1 = function()
 {
   var p = document.createElement("p");
   p.innerText="Incorrect..."
