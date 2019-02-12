@@ -6,7 +6,6 @@ var correct1 = function()
   document.getElementById("q1buttonF").disabled = true;
   document.getElementById("q2buttonT").disabled = false;
   document.getElementById("q2buttonF").disabled = false;
-  
 }
 
 var incorrect1 = function()
