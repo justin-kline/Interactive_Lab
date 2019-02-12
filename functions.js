@@ -14,8 +14,8 @@ var incorrect1 = function()
   document.getElementById("feedback1").style.color = "#ff0000";
   document.getElementById("q1buttonT").disabled = true;
   document.getElementById("q1buttonF").disabled = true;
-  document.getElementById("q1buttonT").disabled = false;
-  document.getElementById("q1buttonF").disabled = false;
+  document.getElementById("q2buttonT").disabled = false;
+  document.getElementById("q2buttonF").disabled = false;
 }
 
 var correct2 = function()
