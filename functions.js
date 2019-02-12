@@ -1,7 +1,7 @@
 var correct1 = function()
 {
   document.getElementById("feedback1").innerHTML = "Correct!";
-  document.getElementById("feedback1").style.color = "#008000";
+  document.getElementById("feedback1").style.color = "#006400";
 }
 
 var incorrect1 = function()
@@ -13,7 +13,7 @@ var incorrect1 = function()
 var correct2 = function()
 {
   document.getElementById("feedback2").innerHTML = "Correct!";
-  document.getElementById("feedback2").style.color = "#008000";
+  document.getElementById("feedback2").style.color = "#006400";
 }
 
 var incorrect2 = function()
