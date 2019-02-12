@@ -1,13 +1,9 @@
 var correct1 = function()
 {
-  var p = document.createElement("p");
-  p.innerText="Correct!";
-  q1buttonF.after(p);
+  document.getElementById("feedback1").innerHTML = "Correct!";
 }
 
 var incorrect1 = function()
 {
-  var p = document.createElement("p");
-  p.innerText="Incorrect..."
-  q1buttonF.after(p);
+  document.getElementById("feedback1").innerHTML = "Incorrect...";
 }
