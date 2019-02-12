@@ -7,7 +7,7 @@ var correct1 = function()
 var incorrect1 = function()
 {
   document.getElementById("feedback1").innerHTML = "Incorrect...";
-  document.getElementById("feedback1").font.color = "#FF0000";
+  document.getElementById("feedback1").style.color = "#ff0000";
 }
 
 var correct2 = function()
