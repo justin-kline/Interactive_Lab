@@ -2,12 +2,17 @@ var correct1 = function()
 {
   document.getElementById("feedback1").innerHTML = "Correct!";
   document.getElementById("feedback1").style.color = "#6b8e23";
+  document.getElementById("q1buttonT").disabled=true;
+  document.getElementById("q1buttonF").disabled=true;
+  
 }
 
 var incorrect1 = function()
 {
   document.getElementById("feedback1").innerHTML = "Incorrect...";
   document.getElementById("feedback1").style.color = "#ff0000";
+  document.getElementById("q1buttonT").disabled=true;
+  document.getElementById("q1buttonF").disabled=true;
 }
 
 var correct2 = function()
