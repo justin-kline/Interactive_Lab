@@ -40,7 +40,7 @@ var incorrect2 = function()
 var correct3 = function()
 {
   document.getElementById("feedback3").innerHTML = "Correct!";
-  document.getElementById("feedback3").stle.color = "#6b8e23";
+  document.getElementById("feedback3").style.color = "#6b8e23";
   document.getElementById("q3buttonT").disabled = true;
   document.getElementById("q3buttonF").disabled = true;
   document.getElementById("q4buttonT").disabled = false;
